@@ -7,7 +7,9 @@ package UI;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.TableView;
 
 /**
  * FXML Controller class
@@ -16,12 +18,15 @@ import javafx.fxml.Initializable;
  */
 public class BusquedaController implements Initializable {
 
+    @FXML
+    private TableView<?> tabla;
+
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }    
     
 }

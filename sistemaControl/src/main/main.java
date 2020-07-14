@@ -15,7 +15,7 @@ import javafx.stage.Stage;
  *
  * @author isanfurg
  */
-public class SistemaControl extends Application {
+public class main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {

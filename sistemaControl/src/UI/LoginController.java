@@ -35,13 +35,9 @@ public class LoginController implements Initializable {
 
     @FXML
     private void entrar(ActionEvent event) throws IOException {
-                Stage stage = new Stage();
-        
-       
+        Stage stage = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource("/UI/busqueda.fxml"));
-        
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
         stage.show();
     }

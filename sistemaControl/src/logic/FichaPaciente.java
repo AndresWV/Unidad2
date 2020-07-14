@@ -14,8 +14,8 @@ public class FichaPaciente {
     private SimpleStringProperty horaPendiente;
 
     public FichaPaciente(SimpleStringProperty nombreCompleto, SimpleStringProperty rut, 
-            SimpleStringProperty convenio, SimpleStringProperty telefono, 
-            SimpleStringProperty horaPendiente) {
+        SimpleStringProperty convenio, SimpleStringProperty telefono, 
+        SimpleStringProperty horaPendiente) {
         this.nombreCompleto = nombreCompleto;
         this.rut = rut;
         this.convenio = convenio;
